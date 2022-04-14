@@ -6,11 +6,11 @@ public class SelectionSort {
 	}
 
 	/* A simple SelectionSort algorithm
-	 * Pre-condition:
-	 * Post-condition:
-	 * Inputs:
-	 * Outputs:
-	 * Special Conditions:
+	 * Pre-condition: an unsorted list of integers
+	 * Post-condition: a sorted list of integers
+	 * Inputs: integers, positive, negative, mixed, zero
+	 * Outputs: sorted integers of specified types
+	 * Special Conditions: n/a
 	 */
 	public int[] basicSelectionSort(int[] x) {
 		for (int i = 0; i < x.length; ++i) {
