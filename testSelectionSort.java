@@ -29,12 +29,12 @@ public class testSelectionSort {
         arr[1] = -9;
         arr[2] = 7;
         arr[3] = -10;
-        arr[4] = 2;
+        arr[4] = 0;
 
         int[] Sortedarr = new int[5];
         Sortedarr[0] = -10;
         Sortedarr[1] = -9;
-        Sortedarr[2] = 2;
+        Sortedarr[2] = 0;
         Sortedarr[3] = 7;
         Sortedarr[4] = 8;
         temp1.basicSelectionSort(arr);
@@ -44,17 +44,17 @@ public class testSelectionSort {
 	public void testDuplicates() {
 		int[] arr = new int[5];
         arr[0] = 5;
-        arr[1] = 9;
-        arr[2] = 8;
-        arr[3] = 10;
+        arr[1] = -10;
+        arr[2] = 0;
+        arr[3] = -10;
         arr[4] = 5;
 
         int[] Sortedarr = new int[5];
-        Sortedarr[0] = 5;
-        Sortedarr[1] = 5;
-        Sortedarr[2] = 8;
-        Sortedarr[3] = 9;
-        Sortedarr[4] = 10;
+        Sortedarr[0] = -10;
+        Sortedarr[1] = -10;
+        Sortedarr[2] = 0;
+        Sortedarr[3] = 5;
+        Sortedarr[4] = 5;
         temp1.basicSelectionSort(arr);
         Assert.assertArrayEquals(arr, Sortedarr);
 	}
